@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.enychat.activity.SelectContact">
+    <item
+        android:id="@+id/action_invite_a_friend"
+        android:orderInCategory="100"
+        android:title="@string/invite_a_friend"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_contacts"
+        android:orderInCategory="100"
+        android:title="@string/contacts"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        android:title="@string/refresh"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="100"
+        android:title="@string/help"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginEnd="100dp"
+            android:background="@drawable/message_in">
+            <TextView
+                android:id="@+id/tv_message_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello world!"
+                android:fontFamily="@font/raleway_regular"
+                android:textSize="14sp"
+                android:textColor="@color/black"
+                tools:ignore="HardcodedText,MissingPrefix" />
+            <TextView
+                android:id="@+id/tv_message_in_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="@color/black"
+                android:text="10.00 am"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

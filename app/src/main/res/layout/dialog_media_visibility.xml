@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/show_newly_downloaded_media"
+        android:textSize="22sp"
+        android:padding="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/raleway_semibold"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp">
+
+        <RadioButton
+            android:id="@+id/rb_default_yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:checked="true"
+            android:text="@string/default_yes"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:theme="@style/RadioButtonStyle"
+            android:fontFamily="@font/raleway_medium" />
+
+        <RadioButton
+            android:id="@+id/rb_yes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:checked="false"
+            android:text="@string/yes"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:theme="@style/RadioButtonStyle"
+            android:fontFamily="@font/raleway_medium" />
+
+        <RadioButton
+            android:id="@+id/rb_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:checked="false"
+            android:text="@string/no"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="15dp"
+            android:textSize="20sp"
+            android:theme="@style/RadioButtonStyle"
+            android:fontFamily="@font/raleway_medium" />
+
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:padding="20dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/raleway_semibold"/>
+        <TextView
+            android:id="@+id/tv_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:textSize="16sp"
+            android:padding="20dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/raleway_semibold"/>
+    </LinearLayout>
+</LinearLayout>

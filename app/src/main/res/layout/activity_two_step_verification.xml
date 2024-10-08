@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.TwoStepsVerfication">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        tools:ignore="UselessParent">
+        <ImageView
+            android:id="@+id/iv_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/back_arrow"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="50dp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/lock_img"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/for_added_security"
+        android:textSize="16sp"
+        android:fontFamily="@font/raleway_medium"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tv_enable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/enable"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:foregroundGravity="bottom"
+        android:layout_marginTop="200dp"
+        android:gravity="bottom"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimaryDark"/>
+
+</LinearLayout>

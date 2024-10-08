@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LiveLocation">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        tools:ignore="UselessParent">
+        <ImageView
+            android:id="@+id/iv_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/back_arrow"
+            android:contentDescription="@string/todo" />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:fontFamily="@font/raleway_medium"
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="50dp"
+            android:textColor="@color/white"/>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:layout_margin="20sp"
+        android:text="@string/you_arenot_sharing_live_location_in_any_chats"
+        android:fontFamily="@font/raleway_medium"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="@string/live_location_requires_background_location_you_can_manage_this_in_your_device_settings"
+        android:textSize="14sp"
+        android:fontFamily="@font/raleway_medium"
+        android:textColor="@color/gray"/>
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activity.SplashScreen">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/welcome_to_enychat"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/logo_white"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/www_enychat_in"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/are_you_sure_you_want_to_log_out_from_all_devices"
+        android:textSize="16sp"
+        android:layout_margin="40dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/raleway_medium"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:id="@+id/tv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_marginEnd="10dp"
+            android:fontFamily="@font/raleway_medium"/>
+        <TextView
+            android:id="@+id/tv_log_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logout"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:textAllCaps="true"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/raleway_medium"/>
+    </LinearLayout>
+
+</LinearLayout>
